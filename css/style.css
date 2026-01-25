@@ -2,10 +2,11 @@ body {
   background-color: #f5f0e1; 
   color: #5c3a21; 
   font-family: "Merriweather", serif;
+  font-size: 0.875rem;
   line-height: 1.6;
   margin: 20px;
   padding: 0;
-  background-image: url('images/background.jpg'); 
+  background-image: url('../images/background.jpg'); 
   background-attachment: fixed;
   background-position: center;
 }
@@ -22,7 +23,6 @@ h1, h2, h3 {
 
 p {
   color: #5c3a21;
-  font-size: 16px;
 }
 
 
@@ -104,4 +104,24 @@ input[type="radio"] {
 
 .wrapper div {
   flex: 1;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+}
+
+.menu li {
+  list-style-type: none;
+  padding-right: 16px;
+}
+
+.fill-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-line {
+  display: flex;
+  justify-content: space-between;
 }
